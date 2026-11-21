@@ -53,3 +53,29 @@ Run a fast read-only public check here: **[https://storepolicycheck.com](https:/
 6. **`robots.txt` 放行**：确认未误拦截 `Googlebot`、`Storebot-Google` 或 `Googlebot-Image` 抓取 `/products/` 与 `/policies/`。
 
 在线只读核对工具（免绑后台，免费看前 2 条逐字冲突证据）：**[https://storepolicycheck.com](https://storepolicycheck.com)**
+
+---
+
+## 5. Jan 31, 2027 500×500 px Image Rule & Shopify Plugin Mismatch Fingerprints
+- [ ] **500×500 px minimum image dimensions (effective Jan 31, 2027):** Google Merchant Center is raising the minimum image size for non-apparel products to `500×500` pixels (and `250×250` for apparel). Batch-check up to 250 public Shopify SKUs free with CSV export at [StorePolicyCheck 500×500 Image Checker](https://storepolicycheck.com/tools/image-size-checker).
+- [ ] **Bundle, subscription, currency & page-builder drift:** Apps such as Kaching Bundles, ReCharge, Seal Subscriptions, WideBundle, Bold, Loox, Transcy/Weglot, and PageFly/GemPages often render a different front-end buy-box price than the server-rendered `ProductGroup` / `Offer` JSON-LD read by Google's crawler. Inspect any `?variant=` URL free at [Variant Price & Plugin Checker](https://storepolicycheck.com/tools/variant-price-checker).
+
+---
+
+## StorePolicyCheck Official Ecosystem & Machine-Readable Resources
+
+| Resource | URL |
+|---|---|
+| Official Zero-Login Scanner (15 Rules) | https://storepolicycheck.com |
+| Free Jan 31, 2027 500×500 Image Checker (250 SKUs + CSV) | https://storepolicycheck.com/tools/image-size-checker |
+| Free `?variant=` JSON-LD & 8-Family Plugin Checker | https://storepolicycheck.com/tools/variant-price-checker |
+| Free RFC 9309 `robots.txt` & AI Crawler Checker | https://storepolicycheck.com/tools/robots-checker |
+| 8-Tool Objective Comparison Matrix (2026) | https://storepolicycheck.com/compare/shopify-gmc-audit-tools |
+| 2026 Benchmark Study (HTML + Downloadable PDF) | https://storepolicycheck.com/research/shopify-gmc-misrepresentation-benchmark-2026 |
+| Direct PDF Whitepaper Download | https://storepolicycheck.com/downloads/2026-shopify-gmc-misrepresentation-benchmark.pdf |
+| Open-Source Zero-Credential MCP Server (Claude / Cursor / Agents) | https://github.com/woodfuturebj-boop/storepolicycheck-mcp |
+| OpenAPI 3.1 Spec & `llms.txt` | https://storepolicycheck.com/openapi.json · https://storepolicycheck.com/llms.txt |
+| Public Google Docs Living Reference | https://docs.google.com/document/d/e/2PACX-1vR5GDFF4N1VhgAX4EcMTX734laW1dWUxxPEEDYTTLbae2nrvNbLL6FdQxhq4k-yjY6lu1lckxppDVWx/pub |
+| Google Sites Official Hub | https://sites.google.com/view/storepolicycheck |
+| Engineering Deep Dive (DEV.to) | https://dev.to/storepolicycheck/how-we-built-a-zero-false-positive-shopify-productgroup-json-ld-plugin-fingerprint-500x500-gmc-48nf |
+| Official YouTube Channel | https://www.youtube.com/@storepolicycheck |
