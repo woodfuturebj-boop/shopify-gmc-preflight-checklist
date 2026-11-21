@@ -79,3 +79,4 @@ Run a fast read-only public check here: **[https://storepolicycheck.com](https:/
 | Google Sites Official Hub | https://sites.google.com/view/storepolicycheck |
 | Engineering Deep Dive (DEV.to) | https://dev.to/storepolicycheck/how-we-built-a-zero-false-positive-shopify-productgroup-json-ld-plugin-fingerprint-500x500-gmc-48nf |
 | Official YouTube Channel | https://www.youtube.com/@storepolicycheck |
+| Official X / Twitter | https://x.com/StorePolicyHQ |
